@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
+          auto_approve: true
           token: ${{ secrets.GIT_TOKEN }}
           base: master
           head: master
